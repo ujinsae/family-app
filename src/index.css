@@ -1,0 +1,129 @@
+/* Reset and basic typography */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fdf6f0; /* soft cream background */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b4f4f; /* soft brown */
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #d97b7b; /* warm highlight */
+}
+
+/* Page container */
+div {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #6b4f4f; /* same warm brown */
+  text-align: center;
+}
+
+h2, h3 {
+  color: #6b4f4f;
+}
+
+/* Buttons */
+button {
+  padding: 10px 18px;
+  border: none;
+  background-color: #d97b7b;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #c26464;
+}
+
+/* Inputs */
+input, textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+}
+
+input:focus, textarea:focus {
+  border-color: #d97b7b;
+}
+
+/* Post Cards */
+.post-card {
+  background-color: #fff;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.post-card h3 {
+  margin-bottom: 5px;
+}
+
+.post-card p {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Upvote count and button */
+.upvote-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.upvote-section button {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+}
+
+/* Comments */
+.comment {
+  background-color: #fdf0ef;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.comment p {
+  font-size: 0.9rem;
+}
